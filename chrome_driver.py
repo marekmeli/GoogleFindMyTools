@@ -58,7 +58,7 @@ def create_driver():
             pass
             
         chrome_options = get_options()
-        driver = uc.Chrome(options=chrome_options, version_main=None)
+        driver = uc.Chrome(options=chrome_options, version_main=149)
         print("[ChromeDriver] Installed and browser started.")
         return driver
     except Exception as e:
